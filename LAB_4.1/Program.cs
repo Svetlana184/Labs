@@ -3,12 +3,12 @@ double[] mas = new double[12];
 Random random = new Random();
 for (int i = 0; i < mas.Length; i++)
 {
-    int temp = random.Next(10, 100);
+    int temp = random.Next(0, 10);
     int counter = 0;
     mas[i] = 0;
     while (temp > 1)
     {
-        mas[i] = mas[i] + (temp % 2) * Math.Pow(10, counter);
+        mas[i] += (temp % 2) * Math.Pow(10, counter);
         counter += 1;
         temp /= 2;
     }
@@ -29,12 +29,12 @@ for (int i = 0; i < mas.Length; i++)
             counter2++;
             if (counter2 > 2)
             {
-                mas[j] = 0;
+                mas[j] = 2;
             }
         }
     }
 }
-double[] res = Array.FindAll(mas, p => p != 0);
+double[] res = Array.FindAll(mas, p => p != 2);
 Console.WriteLine("обработанный массив:");
 foreach (int item in res) Console.Write(item + " ");
 Console.WriteLine();
