@@ -1,4 +1,5 @@
-﻿try
+﻿//вариант 6 стр.49-51
+try
 {
     Console.WriteLine("введите x:");
     int x = int.Parse(Console.ReadLine());

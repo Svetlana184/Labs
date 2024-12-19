@@ -1,6 +1,6 @@
 ﻿using static ClassLibr_6_2.Class6_2;
 
-
+//вариант 23 стр.81-86
 double[,] masMain = new double[3, 3];
 for (int i = 0; i < masMain.GetLength(0); i++)
 {

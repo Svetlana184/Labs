@@ -1,5 +1,6 @@
 ﻿using LAB_9_10;
 
+//вариант 24 стр.186-191
 Console.WriteLine("введите x");
 double x = double.Parse(Console.ReadLine()!);
 Console.WriteLine("введите y");

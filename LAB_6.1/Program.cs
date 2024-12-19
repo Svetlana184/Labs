@@ -1,4 +1,5 @@
-﻿Console.WriteLine("введите первое число");
+﻿//вариант 11 стр.74-81
+Console.WriteLine("введите первое число");
 string ch1 = Console.ReadLine();
 Console.WriteLine("Введите второе число");
 string ch2 = Console.ReadLine();

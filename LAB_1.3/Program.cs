@@ -1,4 +1,5 @@
-﻿try
+﻿//вариант 3.26 сборник задач. Златопольский
+try
 {
     Console.WriteLine("введите трёхзначное число");
     int a = int.Parse(Console.ReadLine());

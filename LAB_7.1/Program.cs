@@ -1,4 +1,5 @@
-﻿Car[] cars = new Car[3];
+﻿//вариант 13 стр. 117-124
+Car[] cars = new Car[3];
 for (int i = 0; i < cars.Length; i++)
 {
     Console.WriteLine("введите марку машины");

@@ -1,4 +1,5 @@
-﻿try
+﻿//вариант 9 стр. 25-31
+try
 {
     Console.WriteLine("Введите трёхзначное число:");
     int x = int.Parse(Console.ReadLine());

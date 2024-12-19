@@ -1,4 +1,6 @@
-﻿try
+﻿//вариант 15 стр.6-8
+
+try
 {
     Console.WriteLine("Введите число m:");
     double m = double.Parse(Console.ReadLine());

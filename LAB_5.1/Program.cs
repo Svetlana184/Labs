@@ -1,4 +1,5 @@
-﻿string[] mas = new string[5];
+﻿//вариант 6 стр.108-113
+string[] mas = new string[5];
 int count = -1;
 for (int i = 0; i < 5; i++)
 {

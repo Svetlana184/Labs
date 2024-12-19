@@ -1,4 +1,5 @@
-﻿int[,] mas = new int[3, 3];
+﻿//вариант 8 стр.66-73
+int[,] mas = new int[3, 3];
 Random random = new Random();
 int min_sum = int.MaxValue;
 Console.WriteLine("исходный массив:");

@@ -1,6 +1,6 @@
 ﻿using LAB_11;
 
-
+//вариант 24 стр. 197-202
 Antenn antenn = new Antenn("некрутая антенна", 200, 10);
 
 Console.WriteLine(antenn);

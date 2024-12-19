@@ -1,4 +1,5 @@
-﻿Console.WriteLine("введите строку");
+﻿//вариант 28 стр.114-117
+Console.WriteLine("введите строку");
 string str = Console.ReadLine();
 string strRez = "";
 while (str.Length > 0)

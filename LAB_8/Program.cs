@@ -1,4 +1,5 @@
-﻿ProtectionTools[] tools = new ProtectionTools[3];
+﻿//вариант 19 стр.155-172
+ProtectionTools[] tools = new ProtectionTools[3];
 for (int i = 0; i < 3; i++)
 {
     Console.WriteLine("введите инвентарный номер средства защиты");

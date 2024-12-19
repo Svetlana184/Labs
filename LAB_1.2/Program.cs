@@ -1,4 +1,6 @@
-﻿try
+﻿//вариант 16 стр.9-15
+
+try
 {
     Console.WriteLine("Введите длину стороны a");
     double a = double.Parse(Console.ReadLine());

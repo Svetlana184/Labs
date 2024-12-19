@@ -1,4 +1,6 @@
-﻿try
+﻿//вариант 19 стр.16-24
+
+try
 {
     Console.WriteLine("Введите x:");
     double x = double.Parse(Console.ReadLine());

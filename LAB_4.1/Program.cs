@@ -1,4 +1,5 @@
-﻿double[] mas = new double[12];
+﻿//вариант 11 стр.59-65
+double[] mas = new double[12];
 Random random = new Random();
 for (int i = 0; i < mas.Length; i++)
 {
