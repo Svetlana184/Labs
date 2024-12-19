@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="1386" dy="-863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="40" value="end" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="2920" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-54" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1720" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="1750" as="sourcePoint" />
+            <mxPoint x="319.5" y="1810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-56" value="ввод a" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="1870" as="sourcePoint" />
+            <mxPoint x="319.5" y="1930" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="1890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-58" value="ввод b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-59" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="1990" as="sourcePoint" />
+            <mxPoint x="319.5" y="2050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="2010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-60" value="ввод c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-61" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="2110" as="sourcePoint" />
+            <mxPoint x="319.5" y="2170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="2130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-63" value="medianaA = 0.5 *&amp;nbsp;&lt;strong style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;√&lt;/strong&gt;(2b&lt;sup&gt;2&lt;/sup&gt; + 2c&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;- a&lt;sup&gt;2&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2170" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-64" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="2230" as="sourcePoint" />
+            <mxPoint x="319.5" y="2290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="2250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-65" value="medianaB = 0.5 *&amp;nbsp;&lt;strong style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;√&lt;/strong&gt;(2a&lt;sup&gt;2&lt;/sup&gt; + 2c&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;- b&lt;sup&gt;2&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2290" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-66" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="2350" as="sourcePoint" />
+            <mxPoint x="319.5" y="2410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="2370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-67" value="medianaC = 0.5 *&amp;nbsp;&lt;strong style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;√&lt;/strong&gt;(2a&lt;sup&gt;2&lt;/sup&gt; + 2b&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;- c&lt;sup&gt;2&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2410" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-68" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="2470" as="sourcePoint" />
+            <mxPoint x="319.5" y="2530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="2490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-69" value="вывод medianaA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2530" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="2600" as="sourcePoint" />
+            <mxPoint x="319.5" y="2660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="2620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-71" value="вывод medianaB" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2660" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-72" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="2730" as="sourcePoint" />
+            <mxPoint x="319.5" y="2790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="2750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-73" value="вывод medianaC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2790" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SPvjseOekgNeCJbSF2se-74" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.5" y="2860" as="sourcePoint" />
+            <mxPoint x="319.5" y="2920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="319.5" y="2880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
