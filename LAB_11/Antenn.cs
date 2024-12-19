@@ -48,7 +48,7 @@ namespace LAB_11
 
         public override string? ToString()
         {
-            return $"название антенны {Name}\nмощность {Power}\nвысота {Height}\nкоэффициент {GetQuality()}";
+            return $"название антенны: {Name}\nмощность: {Power}\nвысота: {Height}\nкоэффициент: {GetQuality()}";
         }
     }
 }
