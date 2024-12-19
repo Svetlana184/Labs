@@ -11,7 +11,11 @@ namespace LAB_9_10
         public double X { get; set; }
         public double Y { get; set; }
         public double Z { get; set; }
-        public Chiselki() { }
+        
+        ~Chiselki() 
+        {
+            Console.WriteLine($"объект был удалён");
+        }
 
         public Chiselki(double x, double y, double z)
         {

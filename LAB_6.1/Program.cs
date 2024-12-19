@@ -58,6 +58,7 @@ for (int i = sum.Length - 1; i >= 0; i--)
 }
 rez = rez.Substring(1, rez.Length - 1);
 Console.WriteLine($"{ch1} - {ch2} = {rez}");
+
 string Sum2(string ch1, string ch2, string p = "0")
 {
     if (ch1.Length > 1)

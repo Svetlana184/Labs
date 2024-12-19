@@ -1,24 +1,33 @@
 ﻿//вариант 19 стр.155-172
-ProtectionTools[] tools = new ProtectionTools[3];
-for (int i = 0; i < 3; i++)
+ProtectionTools[] tools = new ProtectionTools[2];
+for (int i = 0; i < tools.Length; i++)
 {
-    Console.WriteLine("введите инвентарный номер средства защиты");
-    string? invNumber = Console.ReadLine();
-    Console.WriteLine("введите название средства защиты");
-    string? name = Console.ReadLine();
-    Console.WriteLine("введите ФИО ответственного");
-    string? fio = Console.ReadLine();
-    Console.WriteLine("введите дату последней проверки");
-    DateOnly lastCheck = DateOnly.Parse(Console.ReadLine()!);
-    Console.WriteLine("введите очередность проверки в месяцах");
-    int months = int.Parse(Console.ReadLine()!);
-    ProtectionTools tool = new ProtectionTools();
-    tool.InvNumber = invNumber!;
-    tool.Name = name!;
-    tool.Fio = fio!;
-    tool.LastCheck = lastCheck;
-    tool.Queue = months;
-    tools[i] = tool;
+    try
+    {
+        Console.WriteLine("вводим данные средства защиты №" + (i+1)) ;
+        Console.WriteLine("введите инвентарный номер средства защиты");
+        string? invNumber = Console.ReadLine();
+        Console.WriteLine("введите название средства защиты");
+        string? name = Console.ReadLine();
+        Console.WriteLine("введите ФИО ответственного");
+        string? fio = Console.ReadLine();
+        Console.WriteLine("введите дату последней проверки");
+        DateOnly lastCheck = DateOnly.Parse(Console.ReadLine()!);
+        Console.WriteLine("введите очередность проверки в месяцах");
+        int months = int.Parse(Console.ReadLine()!);
+        ProtectionTools tool = new ProtectionTools();
+        tool.InvNumber = invNumber!;
+        tool.Name = name!;
+        tool.Fio = fio!;
+        tool.LastCheck = lastCheck;
+        tool.Queue = months;
+        tools[i] = tool;
+    }
+    catch
+    {
+        Console.WriteLine("введите данные правильно!");
+        i--;
+    }
 }
 Console.WriteLine();
 Console.WriteLine("СВЕДЕНИЯ О ВСЕХ ЗАЩИТНЫХ СРЕДСТВАХ\n\n");

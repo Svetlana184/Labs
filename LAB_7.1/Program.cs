@@ -2,20 +2,30 @@
 Car[] cars = new Car[3];
 for (int i = 0; i < cars.Length; i++)
 {
-    Console.WriteLine("введите марку машины");
-    string name = Console.ReadLine();
-    Console.WriteLine("Введите производителя");
-    string manufacturer = Console.ReadLine();
-    Console.WriteLine("выберите грузоподъемность");
-    int capacity = int.Parse(Console.ReadLine());
-    Console.WriteLine("Введите год выпуска");
-    int year = int.Parse(Console.ReadLine());
-    Console.WriteLine("введите дату регистрации");
-    DateTime registrationDate = DateTime.Parse(Console.ReadLine());
-    Car car = new Car(name, manufacturer, capacity, year, registrationDate);
-    cars[i] = car;
+    try
+    {
+        Console.WriteLine("вводим данные машины № " + (i+1));
+        Console.WriteLine("введите марку машины");
+        string name = Console.ReadLine();
+        Console.WriteLine("Введите производителя");
+        string manufacturer = Console.ReadLine();
+        Console.WriteLine("выберите грузоподъемность");
+        int capacity = int.Parse(Console.ReadLine());
+        Console.WriteLine("Введите год выпуска");
+        int year = int.Parse(Console.ReadLine());
+        Console.WriteLine("введите дату регистрации");
+        DateTime registrationDate = DateTime.Parse(Console.ReadLine());
+        Car car = new Car(name, manufacturer, capacity, year, registrationDate);
+        cars[i] = car;
+    }
+    catch
+    {
+        Console.WriteLine("вводите данные правильно!");
+        i--;
+    }
 }
-
+Console.WriteLine();
+Console.WriteLine("Машины, зарегистрированные больше года назад с грузоподъёмностью больше 3\n");
 foreach (Car car in cars)
 {
     if (DateTime.Now.Subtract(car.Registration).TotalDays > 365 && car.Capacity > 3) car.Print();
@@ -38,6 +48,6 @@ struct Car
     }
     public void Print()
     {
-        Console.WriteLine($"Марка автомобиля: {Brand}\nПроизводитель: {Manufacturer}\nГрузоподъемность: {Capacity}\nГод выпуска: {Date}\nДата регистрации: {Registration}\n");
+        Console.WriteLine($"Марка автомобиля: {Brand}\nПроизводитель: {Manufacturer}\nГрузоподъемность: {Capacity}\nГод выпуска: {Date}\nДата регистрации: {Registration.ToString("D")}\n");
     }
 }
